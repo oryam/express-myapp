@@ -1,0 +1,12 @@
+.items .item > div {
+    width: 20%;
+    display: inline-block;
+}
+
+.items .item:nth-child(even) {
+    background-color: #ccc
+}
+
+.items .item:nth-child(odd) {
+    background-color: #aaa;
+}

@@ -1,0 +1,12 @@
+.users .user-item > div {
+    width: 20%;
+    display: inline-block;
+}
+
+.users .user-item:nth-child(even) {
+    background-color: #ccc
+}
+
+.users .user-item:nth-child(odd) {
+    background-color: #aaa;
+}

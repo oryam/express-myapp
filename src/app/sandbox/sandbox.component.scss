@@ -1,0 +1,15 @@
+.sandbox {
+	.count-list {
+		text-transform: uppercase;
+	}
+	.count-list span::after {
+		content: " ► ";
+		background-color: white;
+	}
+	.count-list span:nth-child(even) {
+		background-color: #0000ff;
+	}
+	.count-list span:nth-child(odd) {
+		background-color: #00ff00;
+	}
+}

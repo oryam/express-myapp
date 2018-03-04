@@ -3,7 +3,6 @@
   "version": "0.0.0",
   "author": "oryam",
   "license": "MIT",
-  "main": "server.js",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",

@@ -1,0 +1,16 @@
+<div class="app">
+
+<h1>{{title}}</h1>
+
+<div class="app-menu">
+    <a [routerLink]=" ['./'] " routerLinkActive="active" class="app-menu-link"> Home </a>
+    <a [routerLink]=" ['./users'] " routerLinkActive="active" class="app-menu-link"> Users </a>
+    <a [routerLink]=" ['./todos'] " routerLinkActive="active" class="app-menu-link"> Todos </a>
+    <a [routerLink]=" ['./items'] " routerLinkActive="active" class="app-menu-link"> Items </a>
+    <a [routerLink]=" ['./sandbox'] " routerLinkActive="active" class="app-menu-link"> Sandbox </a>
+    <a [routerLink]=" ['./sample'] " routerLinkActive="active" class="app-menu-link"> Sample </a>
+</div>
+
+<router-outlet></router-outlet>
+
+</div>

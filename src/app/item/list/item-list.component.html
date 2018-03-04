@@ -1,0 +1,6 @@
+<div class="items">
+    <div *ngFor="let item of items$ | async as items;" class="item">
+        <div>{{item.code}}</div>
+        <div>{{item.value}}</div>
+    </div>
+</div>
